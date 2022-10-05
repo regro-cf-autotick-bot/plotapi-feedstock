@@ -1,5 +1,5 @@
 {% set name = "plotapi" %}
-{% set version = "6.1.2" %}
+{% set version = "6.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5b2f6cbe48b4b413605da919e23f2a0c21157e037184b1976b76f161b6dd2583
+  sha256: 08b23da2007b4c44422eace50967bd622df3bb416b537a74ee9047f3034d40e6
 
 build:
   noarch: python
@@ -35,7 +35,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
-  summary: "Engaging visualisations, made easy."
+  summary: Engaging visualisations, made easy.
 
 extra:
   recipe-maintainers:
