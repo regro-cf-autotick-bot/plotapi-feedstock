@@ -1,5 +1,5 @@
 {% set name = "plotapi" %}
-{% set version = "6.2.3" %}
+{% set version = "6.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: fa95d4616fa89cf48b62eb2605a585c2b27f6e73bd18c75505386a28a2efe28d
+  sha256: 151b426f5e64a757501b839e5d977b0983e6423aa881019540f0c357f578cf1b
 
 build:
   noarch: python
